@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+}
+
+/*  
+code related to section1
+*/
+.sec1 {
+  display: grid;
+  grid-template-columns: 1fr 6fr 1fr;
+  height: 250px;
+}
+.side-space {
+  background-color: pink;
+}
+.hero-section {
+  
+}
+.hero-header {
+  background-color: lightgreen;
+  display: grid;
+  grid-template-columns: 5fr 1fr 1fr 1fr;
+}
+.hero-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.text {
+  background-color: lightblue;
+}
+.photo {
+  background-color: gray;
+}
+
+/*
+code related to section 2
+*/
+
+/*
+code related to section 3
+*/
+
+/*
+code related to section 4
+*/
