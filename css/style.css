@@ -1,36 +1,64 @@
 body {
   margin: 0;
+  font-family: Roboto;
 }
 
 /*  
-code related to section1
+code related to hero (section-1)
 */
-.sec1 {
+.hero {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
 }
-.sec1 > .side-space {
+.hero__spacer {
   background-color: pink;
 }
-.hero-section {
+.hero__content {
   
 }
-.hero-section > .header {
+.nav {
   background-color: lightgreen;
   display: grid;
   grid-template-columns: 5fr 1fr 1fr 1fr;
 }
-.hero-section > .content {
+.hero__main {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.hero-section > .content > .text {
+.hero__text{
   background-color: lightblue;
 }
-.hero-section > .content > .photo {
+.hero__img {
   background-color: gray;
 }
-
+.hero__img img{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+.nav__logo{
+  font-size: 24px;
+  color: #F9FAF8
+}
+.nav__link{
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.hero__title {
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+}
+.hero__subtitle {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+.hero__button button {
+  background-color: #1DA1F2;
+  color: #F9FAF8; 
+  border: none;
+  border-radius: 5px;
+}
 /*
 code related to section 2
 */

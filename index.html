@@ -3,34 +3,39 @@
   <head>
     <meta charset="UTF-8">
     <title>Landing Page</title>
-    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="sec1">
-      <div class="side-space"></div>
-      <div class="hero-section">
-        <div class="header">
-          <div><h3>Header Logo</h3></div>
-          <div><p>header link one</p></div>
-          <div><p>header link two</p></div>
-          <div><p>header link three</p></div>
+    <div class="hero">
+      <div class="hero__spacer"></div>
+      <div class="hero__content">
+        <div class="nav">
+          <div><p class="nav__logo">Header Logo</p></div>
+          <div><p class="nav__link">header link one</p></div>
+          <div><p class="nav__link">header link two</p></div>
+          <div><p class="nav__link">header link three</p></div>
         </div>
-        <div class="content">
-          <div class="text">
-            <div><h1>This website is awesome</h1></div>
-            <div><p>This website has some subtext that 
+        <div class="hero__main">
+          <div class="hero__text">
+            <div class="hero__title"><p>This website is awesome</p></div>
+            <div class="hero__subtitle"><p>This website has some subtext that 
               goes here under the main title. It's a smaller
               font and the color is lower contrast.
             </p></div>
-            <div><button>Sign Up</button></div>
+            <div class="hero__button"><button>Sign Up</button></div>
           </div>
-          <div class="photo"></div>
+          <div class="hero__img">
+            <img src="img/Steins;Gate-poster.jpg">
+          </div>
         </div>
       </div>
-      <div class="side-space"></div>
+      <div class="hero__spacer"></div>
     </div>
 
-    <div class="sec2">
+    <div class="Body">
       <div class="side-space"></div>
       <div class="random-info-section">
         <div class="header"><h3>Some Random Information.</h3></div>
@@ -56,7 +61,7 @@
       <div class="side-space"></div>
     </div>
 
-    <div class="sec3">
+    <div class="Quote">
       <p>This is an inspiring quote, or a 
         testimonial from a customer. Maybe 
         it's just filling up space, or maybe 
@@ -66,8 +71,8 @@
       <p>-Thor, God of Thunder</p>
     </div>
 
-    <div class="sec4">
-      <div class="signup-section">
+    <div class="SignUp">
+      <div class="">
         <div>
           <p>Call to action! It's time!</p>
           <p>
@@ -81,7 +86,7 @@
       </div>
     </div>
 
-    <div class="sec5">
+    <div class="Copyright">
       <p>
         Copyright &#169; DevanshThe888
       </p>
