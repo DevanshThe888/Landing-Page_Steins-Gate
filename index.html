@@ -1,96 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div class="hero">
-      <div class="hero__spacer"></div>
-      <div class="hero__content">
-        <div class="nav">
-          <div><p class="nav__logo">Header Logo</p></div>
-          <div><p class="nav__link">header link one</p></div>
-          <div><p class="nav__link">header link two</p></div>
-          <div><p class="nav__link">header link three</p></div>
-        </div>
-        <div class="hero__main">
-          <div class="hero__text">
-            <div class="hero__title"><p>This website is awesome</p></div>
-            <div class="hero__subtitle"><p>This website has some subtext that 
-              goes here under the main title. It's a smaller
-              font and the color is lower contrast.
-            </p></div>
-            <div class="hero__button"><button>Sign Up</button></div>
-          </div>
-          <div class="hero__img">
-            <img src="img/Steins;Gate-poster.jpg">
-          </div>
-        </div>
-      </div>
-      <div class="hero__spacer"></div>
-    </div>
 
-    <div class="Body">
-      <div class="side-space"></div>
-      <div class="random-info-section">
-        <div class="header"><h3>Some Random Information.</h3></div>
-        <div class="image-holders">
-          <div>
-            <img src="img/Steins;Gate.webp">
-            <p class="text">subtext under image</p>
-          </div>
-          <div>
-            <img src="img/Steins;Gate.webp">
-            <p class="text">subtext under image</p>
-          </div>
-          <div>
-            <img src="img/Steins;Gate.webp">
-            <p class="text">subtext under image</p>
-          </div>
-          <div>
-            <img src="img/Steins;Gate.webp">
-            <p class="text">subtext under image</p>
-          </div>
-        </div>
-      </div>
-      <div class="side-space"></div>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
 
-    <div class="Quote">
-      <p>This is an inspiring quote, or a 
-        testimonial from a customer. Maybe 
-        it's just filling up space, or maybe 
-        people will actually read it. Who knows?
-        All I know is that it looks nice.
-      </p>
-      <p>-Thor, God of Thunder</p>
-    </div>
-
-    <div class="SignUp">
-      <div class="">
+<body>
+  <!-- Section 1 HERO -->
+  <div class="hero">
+    <div class="hero__spacer"></div>
+    <div class="hero__content">
+      <div class="nav">
         <div>
-          <p>Call to action! It's time!</p>
-          <p>
-            Sign up for our product by clicking 
-            that button right over there!
-          </p>
+          <img class="nav__logo" src="img/Steins;Gate-logo.png">
+        </div>
+        <div><a href="https://github.com/DevanshThe888" target="_blank"><i class="fa fa-github" style="font-size:36px;"></i></a></div>
+        <div><a href="https://www.linkedin.com/in/devansh-kumar-sharma-943035344/" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px;"></i></a></div>
+      </div>
+      <div class="hero__main">
+        <div class="hero__text">
+          <div class="hero__title">
+            <h2 style="margin: 10px;">El. Psy. Kongroo</h2>
+          </div>
+          <div class="hero__subtitle">
+            <p style="margin: 10px;">The universe has a beginning,
+              but it has no end. It is infinite.
+            </p>
+          </div>
+        </div>
+        <div class="hero__img">
+          <a href="https://youtu.be/uMYhjVwp0Fk" target="_blank"><img src="img/Steins;Gate.webp"></a>
+        </div>
+      </div>
+    </div>
+    <div class="hero__spacer"></div>
+  </div>
+
+
+
+  <!-- Section 2 BODY -->
+
+  <div class="body" style="
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      grid-column-gap: 14px;
+      padding: 10px;">
+    <!--section 1-->
+    <div style="box-shadow: 0 0 10px rgba(0,0,0,.5); background-color: white;">
+      <img src="img/link3.png" style="
+          width: 100%;
+          object-fit: cover;
+          height: 200px;">
+      <div style="
+          display: grid;
+          grid-template-columns: 1fr 30px;
+          align-items: center;">
+        <div>
+          <h3 style="margin: 10px 5px;">「My Hostage」</h3>
         </div>
         <div>
-          <button>Sign Up</button>
+          <a href="https://youtu.be/cU9HCQT5Hac?" target="_blank">
+            <i class="fa fa-external-link" style="font-size:24px">
+            </i>
+          </a>
         </div>
       </div>
-    </div>
-
-    <div class="Copyright">
-      <p>
-        Copyright &#169; DevanshThe888
+      <p style="padding-left:7px; font-family: Playfair Display; padding-right: 4px;">
+        At that moment I knew I was about to lose her.<br>
+        “I won't let you go. I won't let anyone take you.
+        You're my hostage now.”
       </p>
     </div>
+    <!--section 2-->
+    <div style="box-shadow: 0 0 10px rgba(0,0,0,.5);background-color: white;">
+      <img src="img/link2.jpg" style="
+          width: 100%;
+          object-fit: cover;
+          height: 200px;">
+      <div style="
+          display: grid;
+          grid-template-columns: 1fr 30px;
+          align-items: center;">
+        <div>
+          <h3 style="margin: 10px 5px;">「Watch Not Working」</h3>
+        </div>
+        <div>
+          <a href="https://youtu.be/c_BxDQmKPsU?" target="_blank">
+            <i class="fa fa-external-link" style="font-size:24px">
+            </i>
+          </a>
+        </div>
+      </div>
+      <p style="padding-left:7px; font-family: Playfair Display; padding-right: 4px;">
+        “Huh? My watch isn't working... that's strange.
+        I just wound it...”
+      </p>
+    </div>
+    <!--section 3-->
+    <div style="box-shadow: 0 0 10px rgba(0,0,0,.5);background-color: white;">
+      <img src="img/link4.png" style="
+          width: 100%;
+          object-fit: cover;
+          height: 200px;">
+      <div style="
+          display: grid;
+          grid-template-columns: 1fr 30px;
+          align-items: center;">
+        <div>
+          <h3 style="margin: 10px 5px;">「Romantic, and Sad」</h3>
+        </div>
+        <div>
+          <a href="https://youtu.be/5_VDWZkBYbo?" target="_blank">
+            <i class="fa fa-external-link" style="font-size:24px">
+            </i>
+          </a>
+        </div>
+      </div>
+      <p style="padding-left:7px; font-family: Playfair Display; padding-right: 4px;">
+        “Time is passing so quickly. Right now, I feel like complaining
+        to Einstein. Relativity theory is so romantic. And so sad.”
+      </p>
+    </div>
+    <!--section 4-->
+    <div style="box-shadow: 0 0 10px rgba(0,0,0,.5);background-color: white;">
+      <img src="img/link1.jpg" style="
+          width: 100%;
+          object-fit: cover;
+          height: 200px;">
+      <div style="
+          display: grid;
+          grid-template-columns: 1fr 30px;
+          align-items: center;">
+        <div>
+          <h3 style="margin: 10px 5px;">「Choice of Steins;Gate」</h3>
+        </div>
+        <div>
+          <a href="https://youtu.be/cU9HCQT5Hac?" target="_blank">
+            <i class="fa fa-external-link" style="font-size:24px">
+            </i>
+          </a>
+        </div>
+      </div>
+      <p style="padding-left:7px; font-family: Playfair Display; padding-right: 4px;">
+        “No one knows what the future holds. Thats
+        why its potential is infinite. This is the
+        choice of Steins Gate.”
+      </p>
+    </div>
+  </div>
+  <!-- Section 3 Quote-->
+  <div class="Quote">
+    <p>This is an inspiring quote, or a
+      testimonial from a customer. Maybe
+      it's just filling up space, or maybe
+      people will actually read it. Who knows?
+      All I know is that it looks nice.
+    </p>
+    <p>-Thor, God of Thunder</p>
+  </div>
+  <!-- Section 4 SignUp-->
+  <div class="SignUp">
+    <div class="">
+      <div>
+        <p>Call to action! It's time!</p>
+        <p>
+          Sign up for our product by clicking
+          that button right over there!
+        </p>
+      </div>
+      <div>
+        <button>Sign Up</button>
+      </div>
+    </div>
+  </div>
 
-  </body>
+  <div class="Copyright">
+    <p>
+      Copyright &#169; DevanshThe888
+    </p>
+  </div>
+
+</body>
+
 </html>
+
+<!-- 
+<div class="hero__button"><button style="margin: 10px;">Sign Up</button></div> 
+-->
+
+<!--
+.hero__button {
+  margin-bottom: 20px;
+}
+.hero__button button {
+  background-color: #554A48;
+  color: #F9FAF8; 
+  border: none;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+}
+-->
