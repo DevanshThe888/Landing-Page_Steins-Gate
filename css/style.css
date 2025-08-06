@@ -8,27 +8,26 @@ code related to section1
 .sec1 {
   display: grid;
   grid-template-columns: 1fr 6fr 1fr;
-  height: 250px;
 }
-.side-space {
+.sec1 > .side-space {
   background-color: pink;
 }
 .hero-section {
   
 }
-.hero-header {
+.hero-section > .header {
   background-color: lightgreen;
   display: grid;
   grid-template-columns: 5fr 1fr 1fr 1fr;
 }
-.hero-content {
+.hero-section > .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-.text {
+.hero-section > .content > .text {
   background-color: lightblue;
 }
-.photo {
+.hero-section > .content > .photo {
   background-color: gray;
 }
 
@@ -36,6 +35,28 @@ code related to section1
 code related to section 2
 */
 
+.sec2 {
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+}
+.sec2 > .side-space {
+  background-color: rgb(50, 150, 75)
+}
+.random-info-section {
+  
+}
+.random-info-section > .header {
+
+}
+.random-info-section > .image-holders {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.random-info-section > .image-holders img {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
 /*
 code related to section 3
 */
@@ -43,3 +64,7 @@ code related to section 3
 /*
 code related to section 4
 */
+.signup-section {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
