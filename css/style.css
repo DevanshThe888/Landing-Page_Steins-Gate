@@ -3,6 +3,13 @@ body {
   font-family: Roboto;
   background-color: #EDE9DD;
 }
+img {
+  transition: filter 0.3s ease;
+}
+img:hover {
+  filter: saturate(4);
+  cursor: pointer;
+}
 
 /*  
 code related to hero (section-1)
@@ -26,6 +33,10 @@ code related to hero (section-1)
 }
 .fa {
   color: #2E5E4E;
+  transition: transform 0.3s ease;
+}
+.fa:hover {
+  transform: scale(1.1);
 }
 .hero__main {
   display: grid;
@@ -58,10 +69,11 @@ code related to section 2
 code related to section 3
 */
 
+
 /*
 code related to section 4
 */
-.signup-section {
+.signup {
   display: grid;
-  grid-template-columns: 4fr 1fr;
+  grid-template-columns: 3fr 1fr;
 }
